@@ -32,6 +32,7 @@
   <tr align="center">
     <td>
       <a href="https://leetcode.com/u/Saty_Satyam1122/" target="_blank"><img align="center" src="https://assets.leetcode.com/static_assets/marketing/2024-50.gif" alt="leet50" height="100" width="100" /></a>
+<a href="https://leetcode.com/u/Saty_Satyam1122/" target="_blank"><img align="center" src="https://assets.leetcode.com/static_assets/others/Introduction_to_Pandas.gif" alt="pandas" height="100" width="100" /></a>
     </td>
     <td>
       <a href="https://leetcode.com/u/Saty_Satyam1122/" target="_blank"><img  align=top flex-grow=1 src="https://leetcard.jacoblin.cool/Saty_Satyam1122?theme=dark&font=Nunito&ext=contest" /></a> 
