@@ -23,13 +23,10 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # Prepare artifacts for deployment by moving them to dist folder
-      - name: Verify generated files and move to dist
+      # Prepare artifacts for deployment (files are already in dist/ folder from action)
+      - name: Verify generated files in dist
         run: |
           ls -R
-          mkdir -p dist
-          mv pacman-contribution-graph.svg dist/
-          mv pacman-contribution-graph-dark.svg dist/
           ls -R dist/
 
       # push the content to the output branch
