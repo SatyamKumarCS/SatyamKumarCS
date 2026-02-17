@@ -20,11 +20,15 @@ jobs:
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: verify generated files and move to dist
         run: |
+          ls -R
           mkdir -p dist
-          mv *.svg dist/
+          mv pacman-contribution-graph.svg dist/
+          mv pacman-contribution-graph-dark.svg dist/
           ls -R dist/
 
       # push the content to the output branch
