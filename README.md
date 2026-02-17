@@ -1,7 +1,5 @@
 <br clear="both">
-
 <h2 align="left">Hi 👋, Satyam here.</h2>
-
 ###
 
 <p align="left">🎓 2nd Year B.Tech CSE (AI) Student at Newton School of Technology, Rishihood University<br>💻 Passionate about Artificial Intelligence, Backend Development, and Scalable Systems</p>
