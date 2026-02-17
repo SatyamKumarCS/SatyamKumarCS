@@ -16,14 +16,15 @@ jobs:
     timeout-minutes: 5
 
     steps:
-      - name: generate pacman-contribution-graph.svg
+      - name: Generate Pacman contribution graph
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: verify generated files and move to dist
+      # Prepare artifacts for deployment by moving them to dist folder
+      - name: Verify generated files and move to dist
         run: |
           ls -R
           mkdir -p dist
