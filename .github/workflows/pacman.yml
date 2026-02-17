@@ -1,28 +1,37 @@
-name: Generate Pacman Graph
+name: generate pacman game
 
 on:
-  schedule: # Run every 24 hours
+  schedule: # run automatically every 24 hours
     - cron: "0 0 * * *"
-  workflow_dispatch: # Allow manual trigger
-  push:
+  workflow_dispatch: # allows to manually run the job at any time
+  push: # run on every push on the main branch
     branches:
       - main
-permissions:
-  contents: write 
+
 jobs:
   generate:
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
-    timeout-minutes: 10
-    
+    timeout-minutes: 5
+
     steps:
-      - name: Generate Pacman contribution graph
+      - name: generate pacman-contribution-graph.svg
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
-          # The output branch where the SVG will be pushed
-          # Make sure to create this branch or the action will fail
-          # If it doesn't exist, the action usually creates it
-          output_branch: output
-          output_path: pacman-contribution-graph.svg
+
+      - name: verify generated files and move to dist
+        run: |
+          mkdir -p dist
+          mv *.svg dist/
+          ls -R dist/
+
+      # push the content to the output branch
+      - name: push pacman-contribution-graph.svg to the output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
