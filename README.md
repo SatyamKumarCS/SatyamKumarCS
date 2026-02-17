@@ -9,7 +9,20 @@
 
 ###
 
-<p align="left">✨ Creating bugs since 2022, fixing them since the next commit  <br>📚 Currently learning: AI/ML, System Design, Backend Development <br>🎯 Goal: SDE at a top product company  <br>🎲 Fun fact: Rebuilt an entire fitness app in 24 hours after deleting the code 😄</p>
+###
+<p align="left">
+  <a href="https://git.io/streak-stats">
+    <img align="right" src="https://streak-stats.demolab.com?user=SatyamKumarCS&theme=dark" alt="GitHub Streak" />
+  </a>
+  ✨ Creating bugs since 2024, fixing them since the next commit  <br>
+  📚 Currently learning: AI/ML, System Design, Backend Development <br>
+  🧑‍💻 Problem Solving: 1600+ Contest Rating and 250+ Question on Leetcode<br>
+  🏆 Achievement: Finalist HackFinance Hackathon (IIT Delhi), 7th Place – Sustainovate 2025 (NexIntel Synergy), and many more<br>
+  🎯 Goal: SDE at a top product company  <br>
+</p>
+<br clear="both">
+
+###
 
 ###
 
