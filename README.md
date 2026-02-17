@@ -1,5 +1,18 @@
 <br clear="both">
-<h2 align="left">Hi 👋, Satyam here.</h2>
+
+<h2 align="left">
+  <img align="right" src="https://komarev.com/ghpvc/?username=SatyamKumarCS&label=Profile%20View&color=0e75b6&style=flat" alt="Profile View" />
+  <a href="https://drive.google.com/file/d/19R_9i7nQLobi70veySeUuulg8wZGrw-Z/view?usp=sharing">
+    <img align="right" src="https://img.shields.io/badge/Resume-Download-4caf50?style=flat&logo=download&logoColor=white" alt="Download Resume" />
+  </a>
+  <a href="https://leetcode.com/u/Saty_Satyam1122/">
+    <img align="right" src="https://img.shields.io/badge/LeetCode-FFA116?style=flat&logo=leetcode&logoColor=white" alt="LeetCode" />
+  </a>
+  <a href="https://www.linkedin.com/in/satyam-kumar-152840323/">
+    <img align="right" src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  Hi 👋, Satyam here.
+</h2>
 
 <p align="left">🎓 2nd Year B.Tech CSE (AI) Student at Newton School of Technology, Rishihood University<br>💻 Passionate about Artificial Intelligence, Backend Development, and Scalable Systems</p>
 
@@ -9,7 +22,7 @@
 
 ###
 
-###
+
 <p align="left">
   <a href="https://git.io/streak-stats">
     <img align="right" src="https://streak-stats.demolab.com?user=SatyamKumarCS&theme=dark" alt="GitHub Streak" />
