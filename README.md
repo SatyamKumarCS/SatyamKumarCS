@@ -1,7 +1,7 @@
 <br clear="both">
 <h2 align="left">
   <img align="right" src="https://komarev.com/ghpvc/?username=SatyamKumarCS&label=Profile%20View&color=0e75b6&style=flat" alt="Profile View" />
-  <a href="https://drive.google.com/file/d/19R_9i7nQLobi70veySeUuulg8wZGrw-Z/view?usp=sharing">
+  <a href="https://drive.google.com/file/d/1RlgZ66clGTXilMhhmve4KZIENzw7-7hl/view?usp=drive_link">
     <img align="right" src="https://img.shields.io/badge/Resume-Download-4caf50?style=flat&logo=download&logoColor=white" alt="Download Resume" />
   </a>
   <a href="https://leetcode.com/u/Saty_Satyam1122/">
