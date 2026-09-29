@@ -121,6 +121,14 @@
 
 ###
 
+<h2 align="left">Badges</h2>
+
+###
+
+<div><a href="https://cloud.layer5.io/user/5c19c55d-dbea-4853-848f-3f2ec9db104a?tab=badges&badge=first-design" alt="First Design" ><img width="175px" height="252px" src="https://badges.layer5.io/assets/badges/first-design/first-design.png" alt="First Design" /></a><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<sup><a href="https://badges.layer5.io">Get your own badge</a></sup></div>
+
+###
+
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SatyamKumarCS/SatyamKumarCS/output/pacman-contribution-graph-dark.svg">
@@ -129,4 +137,5 @@
 </picture>
 
 ###
+
 
